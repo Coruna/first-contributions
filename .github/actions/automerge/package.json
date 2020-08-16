@@ -12,5 +12,5 @@
     "@actions/core": "^1.2.4",
     "@actions/github": "^2.1.1"
   },
-  "description": ""
+  "description": "Automatically merges any PR that has no conflicts and changed the file Contributors.md"
 }

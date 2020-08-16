@@ -18315,7 +18315,7 @@ We'd love to hear your thoughts about this project. Let us know how we can impro
       pull_number: prnumber
     });
       
-    console.log(pullRequest);
+    //console.log(pullRequest);
 
 
   } catch (error) {
