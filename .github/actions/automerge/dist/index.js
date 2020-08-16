@@ -53,7 +53,7 @@ module.exports = require("tls");
 /***/ 21:
 /***/ (function(module) {
 
-module.exports = {"_args":[["@octokit/rest@^16.43.1","/home/xenor/first-contributions/.github/actions/automerge/node_modules/@actions/github"]],"_from":"@octokit/rest@>=16.43.1 <17.0.0","_hasShrinkwrap":false,"_id":"@octokit/rest@16.43.1","_inCache":true,"_installable":true,"_location":"/@octokit/rest","_nodeVersion":"12.14.1","_npmOperationalInternal":{"host":"s3://npm-registry-packages","tmp":"tmp/rest_16.43.1_1580768023882_0.10263940274511829"},"_npmUser":{"email":"octokitbot@martynus.net","name":"octokitbot"},"_npmVersion":"6.13.7","_phantomChildren":{"@octokit/types":"2.14.0","deprecation":"2.3.1","once":"1.4.0"},"_requested":{"name":"@octokit/rest","raw":"@octokit/rest@^16.43.1","rawSpec":"^16.43.1","scope":"@octokit","spec":">=16.43.1 <17.0.0","type":"range"},"_requiredBy":["/@actions/github"],"_resolved":"https://registry.npmjs.org/@octokit/rest/-/rest-16.43.1.tgz","_shasum":"3b11e7d1b1ac2bbeeb23b08a17df0b20947eda6b","_shrinkwrap":null,"_spec":"@octokit/rest@^16.43.1","_where":"/home/xenor/first-contributions/.github/actions/automerge/node_modules/@actions/github","author":{"name":"Gregor Martynus","url":"https://github.com/gr2m"},"bugs":{"url":"https://github.com/octokit/rest.js/issues"},"bundlesize":[{"path":"./dist/octokit-rest.min.js.gz","maxSize":"33 kB"}],"contributors":[{"name":"Mike de Boer","email":"info@mikedeboer.nl"},{"name":"Fabian Jakobs","email":"fabian@c9.io"},{"name":"Joe Gallo","email":"joe@brassafrax.com"},{"name":"Gregor Martynus","url":"https://github.com/gr2m"}],"dependencies":{"@octokit/auth-token":"^2.4.0","@octokit/plugin-paginate-rest":"^1.1.1","@octokit/plugin-request-log":"^1.0.0","@octokit/plugin-rest-endpoint-methods":"2.4.0","@octokit/request":"^5.2.0","@octokit/request-error":"^1.0.2","atob-lite":"^2.0.0","before-after-hook":"^2.0.0","btoa-lite":"^1.0.0","deprecation":"^2.0.0","lodash.get":"^4.4.2","lodash.set":"^4.3.2","lodash.uniq":"^4.5.0","octokit-pagination-methods":"^1.1.0","once":"^1.4.0","universal-user-agent":"^4.0.0"},"description":"GitHub REST API client for Node.js","devDependencies":{"@gimenete/type-writer":"^0.1.3","@octokit/auth":"^1.1.1","@octokit/fixtures-server":"^5.0.6","@octokit/graphql":"^4.2.0","@types/node":"^13.1.0","bundlesize":"^0.18.0","chai":"^4.1.2","compression-webpack-plugin":"^3.1.0","cypress":"^3.0.0","glob":"^7.1.2","http-proxy-agent":"^4.0.0","lodash.camelcase":"^4.3.0","lodash.merge":"^4.6.1","lodash.upperfirst":"^4.3.1","lolex":"^5.1.2","mkdirp":"^1.0.0","mocha":"^7.0.1","mustache":"^4.0.0","nock":"^11.3.3","npm-run-all":"^4.1.2","nyc":"^15.0.0","prettier":"^1.14.2","proxy":"^1.0.0","semantic-release":"^17.0.0","sinon":"^8.0.0","sinon-chai":"^3.0.0","sort-keys":"^4.0.0","string-to-arraybuffer":"^1.0.0","string-to-jsdoc-comment":"^1.0.0","typescript":"^3.3.1","webpack":"^4.0.0","webpack-bundle-analyzer":"^3.0.0","webpack-cli":"^3.0.0"},"directories":{},"dist":{"fileCount":22,"integrity":"sha512-gfFKwRT/wFxq5qlNjnW2dh+qh74XgTQ2B179UX5K1HYCluioWj8Ndbgqw2PVqa1NnVJkGHp2ovMpVn/DImlmkw==","npm-signature":"-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeOJsYCRA9TVsSAnZWagAADDcP/2VWtcy+tc1vn2L/rVYo\nDdKFdjuzjygePSZx52NGMwsIwh4gVYzMwZSTW2YGWkdMeuYA6LQGBH4+ldgn\nJkCIeARDeoytEbf6BF9S6YoALWZ8JmUYs7kuNliBI2yM/Kh9yELJWFTfky79\nWmg0DQnEWtcVuCIUVT39T84jEKi8D0em5bEGRX/FtDjkMe63rjFYRyigsZzo\n8vJzt87UiWad/QYpew9O3BOwZmVG5GSOE7ikX/jEGV4M9UA/RpA7vV7NFzt9\nuXJDuE+igL0FD9vkYujLqH6nvn/csYmT8usKKn2wKsm17eclgxxBVpLLte1F\nvFapm9e7fJBnJxNan0HQ6MHK6X01KF2HnV3IeVahkagoSUUU06ddYiwxO/vd\nKa/cuXJlR/MX40WGvTG4MDdWAy0epZmZ/0vYuAh4rsjSmWfbNIh0EBRTcKiL\nMHJxSwejOD+rCjtKSE2W099qHoYW9V1/r1nDvOWqIeZ2Y6Tu6c4LGWTWufAl\nHTNdM8PtZlua6s76NuNa016/q2/st4QlxGIQlxNNOBOZrqTjBeS9YPZGRJoZ\nDATcQfWMFk112JthbqHNffS11npXHwqemCwkrMEz7PHQntaV78AvWHNWScAo\nLUe9XZ/11zwg+THy1hlxM9a9UC+WzqbC+Ziie5Gs1uOs4D7eRZIOPHn9E0XC\nmbtV\r\n=jCTx\r\n-----END PGP SIGNATURE-----\r\n","shasum":"3b11e7d1b1ac2bbeeb23b08a17df0b20947eda6b","tarball":"https://registry.npmjs.org/@octokit/rest/-/rest-16.43.1.tgz","unpackedSize":1383656},"gitHead":"486eaddf9c396d12790291062bca45a53dba39ee","homepage":"https://github.com/octokit/rest.js#readme","keywords":["api-client","github","octokit","rest"],"license":"MIT","maintainers":[{"name":"bkeepers","email":"brandon@opensoul.org"},{"name":"gr2m","email":"gregor@martynus.net"},{"name":"octokitbot","email":"octokitbot@martynus.net"}],"name":"@octokit/rest","nyc":{"ignore":["test"]},"optionalDependencies":{},"publishConfig":{"access":"public"},"readme":"ERROR: No README data found!","release":{"publish":["@semantic-release/npm",{"path":"@semantic-release/github","assets":["dist/*","!dist/*.map.gz"]}]},"repository":{"type":"git","url":"git+https://github.com/octokit/rest.js.git"},"scripts":{"build":"npm-run-all build:*","build:browser":"npm-run-all build:browser:*","build:browser:development":"webpack --mode development --entry . --output-library=Octokit --output=./dist/octokit-rest.js --profile --json > dist/bundle-stats.json","build:browser:production":"webpack --mode production --entry . --plugin=compression-webpack-plugin --output-library=Octokit --output-path=./dist --output-filename=octokit-rest.min.js --devtool source-map","build:ts":"npm run -s update-endpoints:typescript","coverage":"nyc report --reporter=html && open coverage/index.html","generate-bundle-report":"webpack-bundle-analyzer dist/bundle-stats.json --mode=static --no-open --report dist/bundle-report.html","lint":"prettier --check '{lib,plugins,scripts,test}/**/*.{js,json,ts}' 'docs/*.{js,json}' 'docs/src/**/*' index.js README.md package.json","lint:fix":"prettier --write '{lib,plugins,scripts,test}/**/*.{js,json,ts}' 'docs/*.{js,json}' 'docs/src/**/*' index.js README.md package.json","postvalidate:ts":"tsc --noEmit --target es6 test/typescript-validate.ts","prebuild:browser":"mkdirp dist/","pretest":"npm run -s lint","prevalidate:ts":"npm run -s build:ts","start-fixtures-server":"octokit-fixtures-server","test":"nyc mocha test/mocha-node-setup.js \"test/*/**/*-test.js\"","test:browser":"cypress run --browser chrome","update-endpoints":"npm-run-all update-endpoints:*","update-endpoints:fetch-json":"node scripts/update-endpoints/fetch-json","update-endpoints:typescript":"node scripts/update-endpoints/typescript","validate:ts":"tsc --target es6 --noImplicitAny index.d.ts"},"types":"index.d.ts","version":"16.43.1"};
+module.exports = {"_args":[["@octokit/rest@^16.43.1","/home/xenor/first-contributions/.github/actions/automerge/node_modules/@actions/github"]],"_from":"@octokit/rest@>=16.43.1 <17.0.0","_hasShrinkwrap":false,"_id":"@octokit/rest@16.43.2","_inCache":true,"_installable":true,"_location":"/@octokit/rest","_nodeVersion":"12.18.0","_npmOperationalInternal":{"host":"s3://npm-registry-packages","tmp":"tmp/rest_16.43.2_1593025885702_0.6461456976427526"},"_npmUser":{"email":"octokitbot@martynus.net","name":"octokitbot"},"_npmVersion":"6.13.7","_phantomChildren":{"@types/node":"14.0.27","deprecation":"2.3.1","once":"1.4.0","os-name":"3.1.0"},"_requested":{"name":"@octokit/rest","raw":"@octokit/rest@^16.43.1","rawSpec":"^16.43.1","scope":"@octokit","spec":">=16.43.1 <17.0.0","type":"range"},"_requiredBy":["/@actions/github"],"_resolved":"https://registry.npmjs.org/@octokit/rest/-/rest-16.43.2.tgz","_shasum":"c53426f1e1d1044dee967023e3279c50993dd91b","_shrinkwrap":null,"_spec":"@octokit/rest@^16.43.1","_where":"/home/xenor/first-contributions/.github/actions/automerge/node_modules/@actions/github","author":{"name":"Gregor Martynus","url":"https://github.com/gr2m"},"bugs":{"url":"https://github.com/octokit/rest.js/issues"},"bundlesize":[{"path":"./dist/octokit-rest.min.js.gz","maxSize":"33 kB"}],"contributors":[{"name":"Mike de Boer","email":"info@mikedeboer.nl"},{"name":"Fabian Jakobs","email":"fabian@c9.io"},{"name":"Joe Gallo","email":"joe@brassafrax.com"},{"name":"Gregor Martynus","url":"https://github.com/gr2m"}],"dependencies":{"@octokit/auth-token":"^2.4.0","@octokit/plugin-paginate-rest":"^1.1.1","@octokit/plugin-request-log":"^1.0.0","@octokit/plugin-rest-endpoint-methods":"2.4.0","@octokit/request":"^5.2.0","@octokit/request-error":"^1.0.2","atob-lite":"^2.0.0","before-after-hook":"^2.0.0","btoa-lite":"^1.0.0","deprecation":"^2.0.0","lodash.get":"^4.4.2","lodash.set":"^4.3.2","lodash.uniq":"^4.5.0","octokit-pagination-methods":"^1.1.0","once":"^1.4.0","universal-user-agent":"^4.0.0"},"description":"GitHub REST API client for Node.js","devDependencies":{"@gimenete/type-writer":"^0.1.3","@octokit/auth":"^1.1.1","@octokit/fixtures-server":"^5.0.6","@octokit/graphql":"^4.2.0","@types/node":"^13.1.0","bundlesize":"^0.18.0","chai":"^4.1.2","compression-webpack-plugin":"^3.1.0","cypress":"^4.0.0","glob":"^7.1.2","http-proxy-agent":"^4.0.0","lodash.camelcase":"^4.3.0","lodash.merge":"^4.6.1","lodash.upperfirst":"^4.3.1","lolex":"^6.0.0","mkdirp":"^1.0.0","mocha":"^7.0.1","mustache":"^4.0.0","nock":"^11.3.3","npm-run-all":"^4.1.2","nyc":"^15.0.0","prettier":"^1.14.2","proxy":"^1.0.0","semantic-release":"^17.0.0","sinon":"^8.0.0","sinon-chai":"^3.0.0","sort-keys":"^4.0.0","string-to-arraybuffer":"^1.0.0","string-to-jsdoc-comment":"^1.0.0","typescript":"^3.3.1","webpack":"^4.0.0","webpack-bundle-analyzer":"^3.0.0","webpack-cli":"^3.0.0"},"directories":{},"dist":{"fileCount":22,"integrity":"sha512-ngDBevLbBTFfrHZeiS7SAMAZ6ssuVmXuya+F/7RaVvlysgGa1JKJkKWY+jV6TCJYcW0OALfJ7nTIGXcBXzycfQ==","npm-signature":"-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe86VeCRA9TVsSAnZWagAAAugP/1FXIJYawUntFy47D2LM\ntzJCJLtnvHCF0NHPgxkpgksTAhz8gCHbfdkSMxXbfDegNREbQ3eUeylYhUVL\nIb/EOSD08c7bFo7kfvTX9SYyeoSXzZteOhcRKXmWBUeos9g3il5Fgz+4cK/G\nogvE6+AcGG9BeQBSHM5SxeRNGBGiq9huF4tjuH1aKWqwaVWmT00pFOMbwkjW\n3CXqL1C8UwYFY/TTreYxT7UvqYzOMX9/SUWNDLvaavWEcIzlLUL+ibqDT39N\nJ8pWwEawcB6ys/Bkbt/Bp8lzBtYTNe0hmI8I8I/xmAaxq0ggLxyrrjwF9Do9\n1Qb4zYevyZjO20df5qB5QWw8row2rnOHPWi16PdPZridGqT9oSs6DiI9xrpC\nMruKX/SNS/ZEH64GUtfAmsj2zwX/+D2zHkrIHUZzjNiuswEhT1ngdMPeRTnn\n5tJtBB6oxlIMbLlQo77VdYJwhaQko4z+wRJexhUt1wnL4rlZTC3enb0ojUMg\nUzQHsKl9fwM8xNsH/zP0HenhFnWthYarW59k9SG45uClT0HgrWcWRxHNlvME\nvxloTXCRRw3g3fVTHkz1vI1bRCyEa2HGNBK4E7Q0FGsXMGKkmbibLFdSBjF7\nlehU/KewakjnCsBa4gIYQtaTXtgS6qrG807dYN/kzLbRNo4Z7IR1c5W4KGyu\nwwfM\r\n=WFLj\r\n-----END PGP SIGNATURE-----\r\n","shasum":"c53426f1e1d1044dee967023e3279c50993dd91b","tarball":"https://registry.npmjs.org/@octokit/rest/-/rest-16.43.2.tgz","unpackedSize":1383798},"gitHead":"0798dcd0f7f41c7d7d5ce27934a9dbcd8bb77058","homepage":"https://github.com/octokit/rest.js#readme","keywords":["api-client","github","octokit","rest"],"license":"MIT","maintainers":[{"name":"bkeepers","email":"brandon@opensoul.org"},{"name":"gr2m","email":"gregor@martynus.net"},{"name":"octokitbot","email":"octokitbot@martynus.net"}],"name":"@octokit/rest","nyc":{"ignore":["test"]},"optionalDependencies":{},"publishConfig":{"access":"public"},"readme":"# rest.js\n\n> GitHub REST API client for JavaScript\n\n[![@latest](https://img.shields.io/npm/v/@octokit/rest.svg)](https://www.npmjs.com/package/@octokit/rest)\n![Build Status](https://github.com/octokit/rest.js/workflows/Test/badge.svg)\n[![Greenkeeper](https://badges.greenkeeper.io/octokit/rest.js.svg)](https://greenkeeper.io/)\n\n## Installation\n\n```shell\nnpm install @octokit/rest\n```\n\n## Usage\n\n```js\nconst { Octokit } = require(\"@octokit/rest\");\nconst octokit = new Octokit();\n\n// Compare: https://developer.github.com/v3/repos/#list-organization-repositories\noctokit.repos\n  .listForOrg({\n    org: \"octokit\",\n    type: \"public\"\n  })\n  .then(({ data }) => {\n    // handle data\n  });\n```\n\nSee https://octokit.github.io/rest.js/ for full documentation.\n\n## Contributing\n\nWe would love you to contribute to `@octokit/rest`, pull requests are very welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information.\n\n## Credits\n\n`@octokit/rest` was originally created as [`node-github`](https://www.npmjs.com/package/github) in 2012 by Mike de Boer from Cloud9 IDE, Inc.\n\nIt was adopted and renamed by GitHub in 2017\n\n## LICENSE\n\n[MIT](LICENSE)\n","readmeFilename":"README.md","release":{"publish":["@semantic-release/npm",{"path":"@semantic-release/github","assets":["dist/*","!dist/*.map.gz"]}]},"repository":{"type":"git","url":"git+https://github.com/octokit/rest.js.git"},"scripts":{"build":"npm-run-all build:*","build:browser":"npm-run-all build:browser:*","build:browser:development":"webpack --mode development --entry . --output-library=Octokit --output=./dist/octokit-rest.js --profile --json > dist/bundle-stats.json","build:browser:production":"webpack --mode production --entry . --plugin=compression-webpack-plugin --output-library=Octokit --output-path=./dist --output-filename=octokit-rest.min.js --devtool source-map","build:ts":"npm run -s update-endpoints:typescript","coverage":"nyc report --reporter=html && open coverage/index.html","generate-bundle-report":"webpack-bundle-analyzer dist/bundle-stats.json --mode=static --no-open --report dist/bundle-report.html","lint":"prettier --check '{lib,plugins,scripts,test}/**/*.{js,json,ts}' 'docs/*.{js,json}' 'docs/src/**/*' index.js README.md package.json","lint:fix":"prettier --write '{lib,plugins,scripts,test}/**/*.{js,json,ts}' 'docs/*.{js,json}' 'docs/src/**/*' index.js README.md package.json","postvalidate:ts":"tsc --noEmit --target es6 test/typescript-validate.ts","prebuild:browser":"mkdirp dist/","pretest":"npm run -s lint","prevalidate:ts":"npm run -s build:ts","start-fixtures-server":"octokit-fixtures-server","test":"nyc mocha test/mocha-node-setup.js \"test/*/**/*-test.js\"","test:browser":"cypress run --browser chrome","update-endpoints":"npm-run-all update-endpoints:*","update-endpoints:fetch-json":"node scripts/update-endpoints/fetch-json","update-endpoints:typescript":"node scripts/update-endpoints/typescript","validate:ts":"tsc --target es6 --noImplicitAny index.d.ts"},"types":"index.d.ts","version":"16.43.2"};
 
 /***/ }),
 
@@ -14280,13 +14280,6 @@ module.exports = set;
 
 /***/ }),
 
-/***/ 34:
-/***/ (function(module) {
-
-module.exports = require("https");
-
-/***/ }),
-
 /***/ 44:
 /***/ (function(__unusedmodule, exports) {
 
@@ -14371,7 +14364,7 @@ module.exports = require("os");
 module.exports = parseOptions;
 
 const { Deprecation } = __webpack_require__(44);
-const { getUserAgent } = __webpack_require__(922);
+const { getUserAgent } = __webpack_require__(823);
 const once = __webpack_require__(646);
 
 const pkg = __webpack_require__(21);
@@ -14632,28 +14625,32 @@ function hasLastPage (link) {
 const os = __webpack_require__(87);
 
 const nameMap = new Map([
-	[19, 'Catalina'],
-	[18, 'Mojave'],
-	[17, 'High Sierra'],
-	[16, 'Sierra'],
-	[15, 'El Capitan'],
-	[14, 'Yosemite'],
-	[13, 'Mavericks'],
-	[12, 'Mountain Lion'],
-	[11, 'Lion'],
-	[10, 'Snow Leopard'],
-	[9, 'Leopard'],
-	[8, 'Tiger'],
-	[7, 'Panther'],
-	[6, 'Jaguar'],
-	[5, 'Puma']
+	[20, ['Big Sur', '11']],
+	[19, ['Catalina', '10.15']],
+	[18, ['Mojave', '10.14']],
+	[17, ['High Sierra', '10.13']],
+	[16, ['Sierra', '10.12']],
+	[15, ['El Capitan', '10.11']],
+	[14, ['Yosemite', '10.10']],
+	[13, ['Mavericks', '10.9']],
+	[12, ['Mountain Lion', '10.8']],
+	[11, ['Lion', '10.7']],
+	[10, ['Snow Leopard', '10.6']],
+	[9, ['Leopard', '10.5']],
+	[8, ['Tiger', '10.4']],
+	[7, ['Panther', '10.3']],
+	[6, ['Jaguar', '10.2']],
+	[5, ['Puma', '10.1']]
 ]);
 
 const macosRelease = release => {
 	release = Number((release || os.release()).split('.')[0]);
+
+	const [name, version] = nameMap.get(release);
+
 	return {
-		name: nameMap.get(release),
-		version: '10.' + (release - 4)
+		name,
+		version
 	};
 };
 
@@ -14668,6 +14665,70 @@ module.exports.default = macosRelease;
 /***/ (function(module) {
 
 module.exports = require("child_process");
+
+/***/ }),
+
+/***/ 130:
+/***/ (function(module, __unusedexports, __webpack_require__) {
+
+var fs = __webpack_require__(747)
+var core
+if (process.platform === 'win32' || global.TESTING_WINDOWS) {
+  core = __webpack_require__(361)
+} else {
+  core = __webpack_require__(93)
+}
+
+module.exports = isexe
+isexe.sync = sync
+
+function isexe (path, options, cb) {
+  if (typeof options === 'function') {
+    cb = options
+    options = {}
+  }
+
+  if (!cb) {
+    if (typeof Promise !== 'function') {
+      throw new TypeError('callback not provided')
+    }
+
+    return new Promise(function (resolve, reject) {
+      isexe(path, options || {}, function (er, is) {
+        if (er) {
+          reject(er)
+        } else {
+          resolve(is)
+        }
+      })
+    })
+  }
+
+  core(path, options || {}, function (er, is) {
+    // ignore EACCES because that just means we aren't allowed to run it
+    if (er) {
+      if (er.code === 'EACCES' || options && options.ignoreErrors) {
+        er = null
+        is = false
+      }
+    }
+    cb(er, is)
+  })
+}
+
+function sync (path, options) {
+  // my kingdom for a filtered catch
+  try {
+    return core.sync(path, options || {})
+  } catch (er) {
+    if (options && options.ignoreErrors || er.code === 'EACCES') {
+      return false
+    } else {
+      throw er
+    }
+  }
+}
+
 
 /***/ }),
 
@@ -14747,7 +14808,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var Stream = _interopDefault(__webpack_require__(413));
 var http = _interopDefault(__webpack_require__(605));
 var Url = _interopDefault(__webpack_require__(835));
-var https = _interopDefault(__webpack_require__(34));
+var https = _interopDefault(__webpack_require__(211));
 var zlib = _interopDefault(__webpack_require__(761));
 
 // Based on https://github.com/tmpvar/jsdom/blob/aa85b2abf07766ff7bf5c1f6daafb3726f2f2db5/lib/jsdom/living/blob.js
@@ -16678,66 +16739,9 @@ module.exports = eos;
 /***/ }),
 
 /***/ 211:
-/***/ (function(module, __unusedexports, __webpack_require__) {
+/***/ (function(module) {
 
-var fs = __webpack_require__(747)
-var core
-if (process.platform === 'win32' || global.TESTING_WINDOWS) {
-  core = __webpack_require__(361)
-} else {
-  core = __webpack_require__(93)
-}
-
-module.exports = isexe
-isexe.sync = sync
-
-function isexe (path, options, cb) {
-  if (typeof options === 'function') {
-    cb = options
-    options = {}
-  }
-
-  if (!cb) {
-    if (typeof Promise !== 'function') {
-      throw new TypeError('callback not provided')
-    }
-
-    return new Promise(function (resolve, reject) {
-      isexe(path, options || {}, function (er, is) {
-        if (er) {
-          reject(er)
-        } else {
-          resolve(is)
-        }
-      })
-    })
-  }
-
-  core(path, options || {}, function (er, is) {
-    // ignore EACCES because that just means we aren't allowed to run it
-    if (er) {
-      if (er.code === 'EACCES' || options && options.ignoreErrors) {
-        er = null
-        is = false
-      }
-    }
-    cb(er, is)
-  })
-}
-
-function sync (path, options) {
-  // my kingdom for a filtered catch
-  try {
-    return core.sync(path, options || {})
-  } catch (er) {
-    if (options && options.ignoreErrors || er.code === 'EACCES') {
-      return false
-    } else {
-      throw er
-    }
-  }
-}
-
+module.exports = require("https");
 
 /***/ }),
 
@@ -16990,36 +16994,6 @@ exports.Context = Context;
 
 /***/ }),
 
-/***/ 281:
-/***/ (function(__unusedmodule, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var osName = _interopDefault(__webpack_require__(451));
-
-function getUserAgent() {
-  try {
-    return `Node.js/${process.version.substr(1)} (${osName()}; ${process.arch})`;
-  } catch (error) {
-    if (/wmic os get Caption/.test(error.message)) {
-      return "Windows <version undetectable>";
-    }
-
-    return "<environment undetectable>";
-  }
-}
-
-exports.getUserAgent = getUserAgent;
-//# sourceMappingURL=index.js.map
-
-
-/***/ }),
-
 /***/ 297:
 /***/ (function(module, __unusedexports, __webpack_require__) {
 
@@ -17141,12 +17115,12 @@ Object.defineProperty(exports, '__esModule', { value: true });
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var endpoint = __webpack_require__(594);
-var universalUserAgent = __webpack_require__(731);
+var universalUserAgent = __webpack_require__(922);
 var isPlainObject = _interopDefault(__webpack_require__(825));
 var nodeFetch = _interopDefault(__webpack_require__(170));
 var requestError = __webpack_require__(160);
 
-const VERSION = "5.4.2";
+const VERSION = "5.4.7";
 
 function getBufferResponse(response) {
   return response.arrayBuffer();
@@ -17701,7 +17675,7 @@ function sync (path, options) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const url = __webpack_require__(835);
 const http = __webpack_require__(605);
-const https = __webpack_require__(34);
+const https = __webpack_require__(211);
 const pm = __webpack_require__(360);
 let tunnel;
 var HttpCodes;
@@ -18335,11 +18309,13 @@ We'd love to hear your thoughts about this project. Let us know how we can impro
     });
 
     // Merge pull request
-    //const { data: pullRequest } = await octokit.pulls.merge({
-    //  repo,
-    //  owner,
-    //  pull_number: prnumber
-    //});
+    const { data: pullRequest } = await octokit.pulls.merge({
+      repo,
+      owner,
+      pull_number: prnumber
+    });
+      
+    console.log(pullRequest);
 
 
   } catch (error) {
@@ -18699,9 +18675,9 @@ const windowsRelease = release => {
 	if ((!release || release === os.release()) && ['6.1', '6.2', '6.3', '10.0'].includes(ver)) {
 		let stdout;
 		try {
-			stdout = execa.sync('powershell', ['(Get-CimInstance -ClassName Win32_OperatingSystem).caption']).stdout || '';
-		} catch (_) {
 			stdout = execa.sync('wmic', ['os', 'get', 'Caption']).stdout || '';
+		} catch (_) {
+			stdout = execa.sync('powershell', ['(Get-CimInstance -ClassName Win32_OperatingSystem).caption']).stdout || '';
 		}
 
 		const year = (stdout.match(/2008|2012|2016|2019/) || [])[0];
@@ -21882,7 +21858,7 @@ var isWindows = process.platform === 'win32' ||
 
 var path = __webpack_require__(622)
 var COLON = isWindows ? ';' : ':'
-var isexe = __webpack_require__(211)
+var isexe = __webpack_require__(130)
 
 function getNotFoundError (cmd) {
   var er = new Error('not found: ' + cmd)
@@ -22110,7 +22086,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
 var isPlainObject = _interopDefault(__webpack_require__(825));
-var universalUserAgent = __webpack_require__(281);
+var universalUserAgent = __webpack_require__(922);
 
 function lowercaseKeys(object) {
   if (!object) {
@@ -22460,7 +22436,7 @@ function withDefaults(oldDefaults, newDefaults) {
   });
 }
 
-const VERSION = "6.0.1";
+const VERSION = "6.0.5";
 
 const userAgent = `octokit-endpoint.js/${VERSION} ${universalUserAgent.getUserAgent()}`; // DEFAULTS has all properties set that EndpointOptions has, except url.
 // So we use RequestParameters and add method as additional required property.
@@ -22833,7 +22809,7 @@ function paginationMethodsPlugin (octokit) {
 var net = __webpack_require__(631);
 var tls = __webpack_require__(16);
 var http = __webpack_require__(605);
-var https = __webpack_require__(34);
+var https = __webpack_require__(211);
 var events = __webpack_require__(614);
 var assert = __webpack_require__(59);
 var util = __webpack_require__(669);
@@ -23298,36 +23274,6 @@ module.exports = class HttpError extends Error {
     this.headers = headers
   }
 }
-
-
-/***/ }),
-
-/***/ 731:
-/***/ (function(__unusedmodule, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var osName = _interopDefault(__webpack_require__(451));
-
-function getUserAgent() {
-  try {
-    return `Node.js/${process.version.substr(1)} (${osName()}; ${process.arch})`;
-  } catch (error) {
-    if (/wmic os get Caption/.test(error.message)) {
-      return "Windows <version undetectable>";
-    }
-
-    return "<environment undetectable>";
-  }
-}
-
-exports.getUserAgent = getUserAgent;
-//# sourceMappingURL=index.js.map
 
 
 /***/ }),
@@ -24810,22 +24756,41 @@ function wrappy (fn, cb) {
 
 /***/ }),
 
+/***/ 823:
+/***/ (function(__unusedmodule, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var osName = _interopDefault(__webpack_require__(451));
+
+function getUserAgent() {
+  try {
+    return `Node.js/${process.version.substr(1)} (${osName()}; ${process.arch})`;
+  } catch (error) {
+    if (/wmic os get Caption/.test(error.message)) {
+      return "Windows <version undetectable>";
+    }
+
+    throw error;
+  }
+}
+
+exports.getUserAgent = getUserAgent;
+//# sourceMappingURL=index.js.map
+
+
+/***/ }),
+
 /***/ 825:
 /***/ (function(module) {
 
 "use strict";
 
-
-/*!
- * isobject <https://github.com/jonschlinkert/isobject>
- *
- * Copyright (c) 2014-2017, Jon Schlinkert.
- * Released under the MIT License.
- */
-
-function isObject(val) {
-  return val != null && typeof val === 'object' && Array.isArray(val) === false;
-}
 
 /*!
  * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
@@ -24834,23 +24799,22 @@ function isObject(val) {
  * Released under the MIT License.
  */
 
-function isObjectObject(o) {
-  return isObject(o) === true
-    && Object.prototype.toString.call(o) === '[object Object]';
+function isObject(o) {
+  return Object.prototype.toString.call(o) === '[object Object]';
 }
 
 function isPlainObject(o) {
   var ctor,prot;
 
-  if (isObjectObject(o) === false) return false;
+  if (isObject(o) === false) return false;
 
   // If has modified constructor
   ctor = o.constructor;
-  if (typeof ctor !== 'function') return false;
+  if (ctor === undefined) return true;
 
   // If has modified prototype
   prot = ctor.prototype;
-  if (isObjectObject(prot) === false) return false;
+  if (isObject(prot) === false) return false;
 
   // If constructor does not have an Object-specific method
   if (prot.hasOwnProperty('isPrototypeOf') === false) {
@@ -24992,13 +24956,16 @@ Object.defineProperty(exports, '__esModule', { value: true });
 var request = __webpack_require__(339);
 var universalUserAgent = __webpack_require__(922);
 
-const VERSION = "4.3.1";
+const VERSION = "4.5.4";
 
 class GraphqlError extends Error {
   constructor(request, response) {
     const message = response.data.errors[0].message;
     super(message);
     Object.assign(this, response.data);
+    Object.assign(this, {
+      headers: response.headers
+    });
     this.name = "GraphqlError";
     this.request = request; // Maintains proper stack trace (only available on V8)
 
@@ -25011,7 +24978,7 @@ class GraphqlError extends Error {
 
 }
 
-const NON_VARIABLE_OPTIONS = ["method", "baseUrl", "url", "headers", "request", "query"];
+const NON_VARIABLE_OPTIONS = ["method", "baseUrl", "url", "headers", "request", "query", "mediaType"];
 function graphql(request, query, options) {
   options = typeof query === "string" ? options = Object.assign({
     query
@@ -25031,7 +24998,14 @@ function graphql(request, query, options) {
   }, {});
   return request(requestOptions).then(response => {
     if (response.data.errors) {
+      const headers = {};
+
+      for (const key of Object.keys(response.headers)) {
+        headers[key] = response.headers[key];
+      }
+
       throw new GraphqlError(requestOptions, {
+        headers,
         data: response.data
       });
     }
@@ -25075,27 +25049,23 @@ exports.withCustomRequest = withCustomRequest;
 /***/ }),
 
 /***/ 922:
-/***/ (function(__unusedmodule, exports, __webpack_require__) {
+/***/ (function(__unusedmodule, exports) {
 
 "use strict";
 
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var osName = _interopDefault(__webpack_require__(451));
-
 function getUserAgent() {
-  try {
-    return `Node.js/${process.version.substr(1)} (${osName()}; ${process.arch})`;
-  } catch (error) {
-    if (/wmic os get Caption/.test(error.message)) {
-      return "Windows <version undetectable>";
-    }
-
-    throw error;
+  if (typeof navigator === "object" && "userAgent" in navigator) {
+    return navigator.userAgent;
   }
+
+  if (typeof process === "object" && "version" in process) {
+    return `Node.js/${process.version.substr(1)} (${process.platform}; ${process.arch})`;
+  }
+
+  return "<environment undetectable>";
 }
 
 exports.getUserAgent = getUserAgent;
@@ -25338,13 +25308,15 @@ class GitHub extends rest_1.Octokit {
     static getOctokitOptions(args) {
         const token = args[0];
         const options = Object.assign({}, args[1]); // Shallow clone - don't mutate the object provided by the caller
+        // Base URL - GHES or Dotcom
+        options.baseUrl = options.baseUrl || this.getApiBaseUrl();
         // Auth
         const auth = GitHub.getAuthString(token, options);
         if (auth) {
             options.auth = auth;
         }
         // Proxy
-        const agent = GitHub.getProxyAgent(options);
+        const agent = GitHub.getProxyAgent(options.baseUrl, options);
         if (agent) {
             // Shallow clone - don't mutate the object provided by the caller
             options.request = options.request ? Object.assign({}, options.request) : {};
@@ -25355,6 +25327,7 @@ class GitHub extends rest_1.Octokit {
     }
     static getGraphQL(args) {
         const defaults = {};
+        defaults.baseUrl = this.getGraphQLBaseUrl();
         const token = args[0];
         const options = args[1];
         // Authorization
@@ -25365,7 +25338,7 @@ class GitHub extends rest_1.Octokit {
             };
         }
         // Proxy
-        const agent = GitHub.getProxyAgent(options);
+        const agent = GitHub.getProxyAgent(defaults.baseUrl, options);
         if (agent) {
             defaults.request = { agent };
         }
@@ -25381,16 +25354,30 @@ class GitHub extends rest_1.Octokit {
         }
         return typeof options.auth === 'string' ? options.auth : `token ${token}`;
     }
-    static getProxyAgent(options) {
+    static getProxyAgent(destinationUrl, options) {
         var _a;
         if (!((_a = options.request) === null || _a === void 0 ? void 0 : _a.agent)) {
-            const serverUrl = 'https://api.github.com';
-            if (httpClient.getProxyUrl(serverUrl)) {
+            if (httpClient.getProxyUrl(destinationUrl)) {
                 const hc = new httpClient.HttpClient();
-                return hc.getAgent(serverUrl);
+                return hc.getAgent(destinationUrl);
             }
         }
         return undefined;
+    }
+    static getApiBaseUrl() {
+        return process.env['GITHUB_API_URL'] || 'https://api.github.com';
+    }
+    static getGraphQLBaseUrl() {
+        let url = process.env['GITHUB_GRAPHQL_URL'] || 'https://api.github.com/graphql';
+        // Shouldn't be a trailing slash, but remove if so
+        if (url.endsWith('/')) {
+            url = url.substr(0, url.length - 1);
+        }
+        // Remove trailing "/graphql"
+        if (url.toUpperCase().endsWith('/GRAPHQL')) {
+            url = url.substr(0, url.length - '/graphql'.length);
+        }
+        return url;
     }
 }
 exports.GitHub = GitHub;
