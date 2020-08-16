@@ -2,6 +2,7 @@
 - [Waris Anwar👨‍💻🚀](https://github.com/warisanwar)
 - [jvkiran](https://github.com/jvkiran)
 - Testedit
+- Testedit2
 - [Pranav Sharma](https://github.com/psx95)
 - [Bruce Snow](https://github.com/cbs42)
 - [Daniel Florea] (https://github.com/dfloreaa)
